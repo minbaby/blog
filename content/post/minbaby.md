@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
-draft: true
+title: "Minbaby"
+date: 2018-06-07T13:31:22+08:00
+lastmod: 2018-06-07T13:31:22+08:00
+draft: false
 keywords: []
 description: ""
 tags: []
