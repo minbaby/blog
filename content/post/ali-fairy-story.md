@@ -1,18 +1,18 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "梦的童话"
+date: 2018-06-07T14:19:00+08:00
+lastmod: 2018-06-07T14:19:00+08:00
 draft: true
 keywords: []
 description: ""
-tags: []
-categories: []
+tags: ["童话", "阿狸", "梦"]
+categories: ["动漫", "阿狸"]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: false
-toc: true
+toc: false
 autoCollapseToc: false
 postMetaInFooter: false
 hiddenFromHomePage: false
@@ -40,4 +40,10 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
+## 不想长大
+
+### 看着 梦的童话
+
+![502329de624e5.jpg][2]
+
+  [2]: https://dn-blog-891125-com.qbox.me/usr/uploads/2015/04/3097760634.jpg
