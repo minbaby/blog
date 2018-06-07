@@ -2,8 +2,8 @@
 title: "About"
 date: 2018-06-06T16:06:22+08:00
 lastmod: 2018-08-30T01:37:56+08:00
-tags: ["about", "关于"]
-categories: ["关于"]
+tags: ["我", "关于"]
+categories: ["其他"]
 menu: "main"
 draft: false
 ---
