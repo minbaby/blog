@@ -6,9 +6,6 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 echo "build hugo"
 hugo -b https://minbaby.github.io/ # if using a theme, replace by `hugo -t <yourtheme>`
 
-echo "checkout master"
-git checkout master
-
 # Go To Public folder
 cd public
 # Add changes to git.
@@ -21,6 +18,9 @@ if [ $# -eq 1 ]
 fi
 echo "commit change"
 git commit -m "$msg"
+
+echo "checkout master"
+git checkout master
 
 # Push source and build repos.
 echo "push code"
