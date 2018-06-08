@@ -3,5 +3,5 @@
 	url = https://github.com/olOwOlo/hugo-theme-even
 [submodule "public"]
 	path = public
-	url = https://github.com:minbaby:minbaby.github.io.git
+	url = https://github.com/minbaby/minbaby.github.io.git
 	branch = master
