@@ -2,16 +2,16 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-git pull origin master
-
-git branch
+# Build the project.
+echo "build hugo"
+hugo -b https://minbaby.github.io/ # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
 # Add changes to git.
 git add -A
 
-git branch
+git pull
 
 # Commit changes.
 msg="rebuilding site `date`"
@@ -21,7 +21,9 @@ fi
 echo "commit change"
 git commit -m "$msg"
 
-git branch
+echo "checkout master"
+git checkout master
+
 # Push source and build repos.
 echo "push code"
 git push origin master
