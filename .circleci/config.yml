@@ -1,7 +1,4 @@
 
-# Golang CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-go/ for more details
 version: 2
 jobs:
   build:
@@ -11,7 +8,7 @@ jobs:
 
     working_directory: ~/hugo
     environment:
-      HUGO_BUILD_DIR: ~/hugo/public
+      HUGO_BUILD_DIR: public
 
     steps:
       - add_ssh_keys:
@@ -20,6 +17,6 @@ jobs:
       - run: apk update && apk add git
       - checkout
       - run: git submodule sync && git submodule update --init
-      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run: HUGO_ENV=production hugo -v -d ~/hugo/$HUGO_BUILD_DIR
       - run: git config --global user.email "$GIT_EMAIL" && git config --global user.name "$GIT_NAME"
       - run: cd ~/hugo && ./deploy.sh
