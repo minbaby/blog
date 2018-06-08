@@ -17,6 +17,6 @@ jobs:
       - run: apk update && apk add git
       - checkout
       - run: git submodule sync && git submodule update --init
-      - run: HUGO_ENV=production hugo -v -d ~/hugo/$HUGO_BUILD_DIR
+      - run: HUGO_ENV=production hugo -v
       - run: git config --global user.email "$GIT_EMAIL" && git config --global user.name "$GIT_NAME"
       - run: cd ~/hugo && ./deploy.sh
