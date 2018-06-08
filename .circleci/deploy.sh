@@ -12,6 +12,10 @@ git config --global user.name $GIT_NAME
 
 git clone -q --branch=master $GITHUB_REPO $DEPLOY_DIR
 
+rm -rf public/
+
+hugo -v
+
 rsync -arv --delete public/* $DEPLOY_DIR
 
 cd $DEPLOY_DIR
