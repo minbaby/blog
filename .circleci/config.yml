@@ -12,8 +12,13 @@ jobs:
     working_directory: ~/hugo
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
+
     steps:
+      - add_ssh_keys:
+        fingerprints:
+          - "c8:4a:67:87:93:38:c4:c3:1c:27:aa:8b:0f:d4:d8:23"
       - run: apk update && apk add git
       - checkout
       - run: git submodule sync && git submodule update --init
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - run: cd ~/hugo && ./deploy.sh
