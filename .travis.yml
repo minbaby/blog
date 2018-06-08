@@ -14,4 +14,4 @@ deploy:
     repo: minbaby.github.io
     # fqdn: <custom-domain-if-needed>
     target_branch: master
-    keep-history: true
+    # keep-history: true
