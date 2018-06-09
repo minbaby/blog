@@ -18,7 +18,7 @@ postMetaInFooter: false
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
-reward: false
+reward: true
 mathjax: false
 mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
@@ -39,7 +39,10 @@ sequenceDiagrams:
   options: ""
 
 ---
+
+{{% center %}}
 ![阿狸 duang][1]
 duang...
 
   [1]: http://blog.891125.com/usr/uploads/2015/04/106648896.gif
+{{% center %}}

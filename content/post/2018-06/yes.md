@@ -1,12 +1,12 @@
 ---
-title: "Disabled Ping"
-date: 2015-08-11T12:50:50+08:00
-lastmod: 2018-06-08T12:50:50+08:00
+title: "Yes"
+date: 2018-06-09T12:56:53+08:00
+lastmod: 2018-06-09T12:56:53+08:00
 draft: true
 keywords: []
 description: ""
-tags: [linux, ping]
-categories: [linux]
+tags: []
+categories: []
 author: ""
 
 # You can also close(false) or open(true) something for this content.
@@ -40,7 +40,4 @@ sequenceDiagrams:
 
 ---
 
-```bash
-sudo echo "net.ipv4.icmp_echo_ignore_all = 1" >> /etc/sysctl.conf
-sudo sysctl -p
-```
+<!--more-->
