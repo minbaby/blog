@@ -50,10 +50,14 @@ sequenceDiagrams:
 
 ## Github Pages
 
-github 很贴心的为我们这些程序员提供了静态网站托管服务，来作为项目
+github 很贴心的为我们这些程序员提供了静态网站托管服务，来作为项目主页。省去了自己购买域名，购买服务器，配置环境等等过程。有了 Github Pages 之后，我们需要简单的操作一波就可以搞定了。
 
-### project home pages
+### project home pages （项目主页）
 
-给托管在 github 的软件，
+现在很多开源软件都托管在 `github` 上，比较用心的作者一般都会为自己的程序做一个~~精致~~，有意义的**官网**。
 
-### user or organization home page
+TODO: 这里需要整理一下配置流程
+
+### user or organization home page （用户或者组织主页）
+
+TODO: 这里需要整理一下配置流程
