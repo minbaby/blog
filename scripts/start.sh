@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-hugo server -D -w -F
+hugo server -D -F --gc
