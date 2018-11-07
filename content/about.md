@@ -16,4 +16,11 @@ Phone: 保密
 
 Github: https://github.com/minbaby
 
-![Example image](/images/think-different.jpg)
+![Think Different](/images/think-different.jpg)
+
+{{% admonition abstract "友情链接" false %}}
+
+- [摩西崖刻](https://vimnote.com/)
+- [洛客技术博客](https://lkker.github.io)
+
+{{% /admonition %}}
