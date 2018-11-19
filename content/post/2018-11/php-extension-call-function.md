@@ -2,7 +2,7 @@
 title: "如何调用 php 自定义函数或者其他扩展的函数"
 date: 2018-11-19T23:19:16+08:00
 lastmod: 2018-11-19T23:19:16+08:00
-draft: true
+draft: false
 keywords: [php extension, "call user function"]
 description: ""
 tags: [php, extension]
