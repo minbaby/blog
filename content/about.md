@@ -10,7 +10,7 @@ draft: false
 
 ## 霸气千秋
 
-Email: zhangshaomin_1990(^ ^)126.com (你懂的)
+Email: minbaby.zhang(^ ^)gmail.com (你懂的)
 
 Phone: 保密
 
