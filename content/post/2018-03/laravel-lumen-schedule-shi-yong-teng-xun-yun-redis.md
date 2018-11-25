@@ -6,7 +6,7 @@ draft: false
 keywords: [php, laravel, lumen, schedule, redis, qcloud, 腾讯云]
 description: ""
 tags: [php, laravel, lumen, redis]
-categories: [php, laravle, lumen, redis]
+categories: [php, laravel, lumen, redis]
 author: ""
 
 # You can also close(false) or open(true) something for this content.

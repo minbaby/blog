@@ -6,7 +6,7 @@ draft: false
 keywords: [phpbrew, mirror, 加速]
 description: ""
 tags: [php, phpbrew]
-categories: [php phpbrew]
+categories: [php]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
