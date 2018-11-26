@@ -1,20 +1,20 @@
 ---
-title: "Disabled Ping"
-date: 2015-08-11T12:50:50+08:00
-lastmod: 2018-06-08T12:50:50+08:00
-draft: false
-keywords: []
+title: "统计一个目录中最大的文件或目录"
+date: 2015-11-22T15:25:32+08:00
+lastmod: 2018-11-26T23:36:32+08:00
+draft: true
+keywords: [linux, 统计, 目录, 文件]
 description: ""
-tags: [linux, ping]
+tags: [linux, 统计]
 categories: [linux]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
+comment: true
 toc: true
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-```bash
-sudo echo "net.ipv4.icmp_echo_ignore_all = 1" >> /etc/sysctl.conf
-sudo sysctl -p
+```shell
+ du -s * | sort -nr | head
 ```

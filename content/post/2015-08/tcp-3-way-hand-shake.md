@@ -2,8 +2,8 @@
 title: "TCP三次握手, 四次挥手"
 date: 2015-08-22T12:56:39+08:00
 lastmod: 2018-06-08T12:56:39+08:00
-draft: true
-keywords: []
+draft: false
+keywords: [tcp, network, 三次握手, 四次挥手]
 description: ""
 tags: [tcp, network]
 categories: [network]
@@ -45,7 +45,6 @@ sequenceDiagrams:
 首先Client端发送连接请求报文，Server段接受连接后回复ACK报文，并为这次连接分配资源。
 
 Client端接收到ACK报文后也向Server段发生ACK报文，并分配资源，这样TCP连接就建立了。
-
 
 ![四次挥手][4]
 

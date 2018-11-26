@@ -3,7 +3,7 @@ title: "psr-0 解读"
 # date: 2018-11-25T18:56:10+08:00
 date: 2015-06-22T12:28:00+00:00
 lastmod: 2018-11-25T18:56:10+08:00
-draft: true
+draft: false
 keywords: [psr-0, php, psr, deprecated]
 description: ""
 tags: [php,psr]

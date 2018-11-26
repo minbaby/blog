@@ -2,7 +2,7 @@
 title: "Monday Motivation"
 date: 2015-06-15T22:52:19+08:00
 lastmod: 2018-11-25T18:33:19+08:00
-draft: true
+draft: false
 keywords: []
 description: ""
 tags: []

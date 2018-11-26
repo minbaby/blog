@@ -2,7 +2,7 @@
 title: "MySQL索引原理及慢查询优化"
 date: 2015-05-08T13:51:00+08:00
 lastmod: 2018-11-25T19:03:00+08:00
-draft: true
+draft: false
 keywords: [optimization, mysql, slow query, meituan]
 description: ""
 tags: [optimization, mysql, slow query]

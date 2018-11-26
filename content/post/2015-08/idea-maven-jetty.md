@@ -1,20 +1,20 @@
 ---
-title: "Disabled Ping"
-date: 2015-08-11T12:50:50+08:00
-lastmod: 2018-06-08T12:50:50+08:00
+title: "idea 配置 maven jetty run"
+date: 2015-08-14T00:09:16+08:00
+lastmod: 2018-11-26T23:24:16+08:00
 draft: false
 keywords: []
 description: ""
-tags: [linux, ping]
-categories: [linux]
+tags: []
+categories: []
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
+comment: true
 toc: true
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
@@ -40,7 +40,29 @@ sequenceDiagrams:
 
 ---
 
-```bash
-sudo echo "net.ipv4.icmp_echo_ignore_all = 1" >> /etc/sysctl.conf
-sudo sysctl -p
+## 配置 command line
+
+```ini
+org.mortbay.jetty:maven-jetty-plugin:6.1.22:run
+```
+
+## 配置POM
+
+```xml
+<build>
+    <finalName>admin</finalName>
+    <plugins>
+  <plugin>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-maven-plugin</artifactId>
+    <version>9.2.1.v20140609</version>
+        </plugin>
+    </plugins>
+</build>
+```
+
+## 修改端口
+
+```ini
+Runner选项->VM Options 设置 -Djetty.port=8081
 ```

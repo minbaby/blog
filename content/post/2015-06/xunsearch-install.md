@@ -2,7 +2,7 @@
 title: "xunsearch 安装"
 date: 2015-06-27T14:34:08+08:00
 lastmod: 2018-11-25T19:15:08+08:00
-draft: true
+draft: false
 keywords: [php, xunsearch, install]
 description: ""
 tags: [php, xunsearch, install]

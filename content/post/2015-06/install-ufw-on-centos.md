@@ -2,7 +2,7 @@
 title: "Install Ufw on Centos"
 date: 2015-06-10T12:40:17+08:00
 lastmod: 2018-11-25T18:47:17+08:00
-draft: true
+draft: false
 keywords: [ubuntu, centos, debain, ufw, iptables, linux]
 description: ""
 tags: [centos, ufw, linux]
