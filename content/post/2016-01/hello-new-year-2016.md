@@ -1,20 +1,20 @@
 ---
-title: "Disabled Ping"
-date: 2015-08-11T12:50:50+08:00
-lastmod: 2018-06-08T12:50:50+08:00
+title: "Hello New Year 2016"
+date: 2016-01-01T23:31:15+08:00
+lastmod: 2018-11-26T23:39:15+08:00
 draft: false
 keywords: []
 description: ""
-tags: [linux, ping]
-categories: [linux]
+tags: []
+categories: []
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
+comment: true
 toc: true
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
@@ -40,7 +40,4 @@ sequenceDiagrams:
 
 ---
 
-```bash
-sudo echo "net.ipv4.icmp_echo_ignore_all = 1" >> /etc/sysctl.conf
-sudo sysctl -p
-```
+## 新年

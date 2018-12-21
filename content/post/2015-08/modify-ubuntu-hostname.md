@@ -1,20 +1,20 @@
 ---
-title: "Disabled Ping"
-date: 2015-08-11T12:50:50+08:00
-lastmod: 2018-06-08T12:50:50+08:00
+title: "Modify Ubuntu Hostname"
+date: 2015-08-30T08:14:20+08:00
+lastmod: 2018-11-26T23:26:20+08:00
 draft: false
-keywords: []
+keywords: [ubuntu, hostname, linux]
 description: ""
-tags: [linux, ping]
+tags: [ubuntu, hostname]
 categories: [linux]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
+comment: true
 toc: true
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
@@ -40,7 +40,10 @@ sequenceDiagrams:
 
 ---
 
-```bash
-sudo echo "net.ipv4.icmp_echo_ignore_all = 1" >> /etc/sysctl.conf
-sudo sysctl -p
+``` bash
+1. hostname newhostname
+修改 主机名(立即生效, 重启消失)
+
+2. vim /etc/hostname
+修改 /etc/hostname 内容为 主机名(这个是重启生效)
 ```

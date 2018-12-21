@@ -116,5 +116,3 @@ gitalk.render('gitalk-container')
 ## 官方文档
 
 > 中文文档 https://github.com/gitalk/gitalk/blob/master/readme-cn.md
-
-<!--more-->

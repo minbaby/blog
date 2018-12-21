@@ -1,20 +1,20 @@
 ---
-title: "Disabled Ping"
-date: 2015-08-11T12:50:50+08:00
-lastmod: 2018-06-08T12:50:50+08:00
+title: "Monday Motivation"
+date: 2015-06-15T22:52:19+08:00
+lastmod: 2018-11-25T18:33:19+08:00
 draft: false
 keywords: []
 description: ""
-tags: [linux, ping]
-categories: [linux]
+tags: []
+categories: []
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
+comment: true
 toc: true
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
@@ -40,7 +40,12 @@ sequenceDiagrams:
 
 ---
 
-```bash
-sudo echo "net.ipv4.icmp_echo_ignore_all = 1" >> /etc/sysctl.conf
-sudo sysctl -p
-```
+Wake up motivated.
+
+Nothing works unless you work.
+
+Nothing changes unless you change.
+
+Dominate the day.
+
+<!--more-->

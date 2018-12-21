@@ -79,5 +79,3 @@ PHP_METHOD(Stringy, length)
 ## 参考
  
 - [php-ext-start](https://github.com/minbaby/php-ext-startup)
-
-<!--more-->
