@@ -2,7 +2,7 @@
 title: "Xmind 优惠码"
 date: 2019-01-04T11:16:49+08:00
 lastmod: 2019-01-04T11:16:49+08:00
-draft: true
+draft: false
 keywords: [xmind, 优惠码, coupon]
 description: ""
 tags: [tools, xmind, coupon]
