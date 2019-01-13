@@ -37,6 +37,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "some-law"
   url = "/some-law/"
 [[menu.main]]
+  name = "常用软件"
+  weight = 22
+  identifier = "my-soft"
+  url = "/my-soft/"
+[[menu.main]]
   name = "标签"
   weight = 30
   identifier = "tags"

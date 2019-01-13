@@ -1,0 +1,14 @@
+  build:
+    image: klakegg/hugo:0.53
+    command: -D -F
+    volumes:
+      - .:/src
+      - ./output:/public
+  run-web:
+    image: klakegg/hugo:0.53
+    command: server -D -w -F
+    volumes:
+      - .:/src
+      - ./output:/public
+    ports:
+      - 1313:1313

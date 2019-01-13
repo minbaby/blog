@@ -2,7 +2,7 @@
 title: "互联网行业的岗位分类和职责要求"
 date: 2018-12-21T16:03:20+08:00
 lastmod: 2018-12-21T16:03:20+08:00
-draft: true
+draft: false
 keywords: []
 description: ""
 tags: []
