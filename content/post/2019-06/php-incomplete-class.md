@@ -2,11 +2,11 @@
 title: "Php Incomplete Class"
 date: 2019-06-09T03:58:58Z
 lastmod: 2019-06-09T03:58:58Z
-draft: true
-keywords: []
+draft: false
+keywords: [php, __PHP_Incomplete_Class]
 description: ""
-tags: []
-categories: []
+tags: [php]
+categories: [php]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
@@ -75,7 +75,54 @@ function logic()
 
 那么我们来进行一下情景重现。
 
+### 首先创建序列化文件
+```php
+<?php
+// file: a.php
 
-## PS
+class A {
+    public $count = -1;
+}
 
-才发现 php还有一个这么神奇的类 `__PHP_Incomplete_Class`，
+file_put_contents("a.out", serialize(new A()));
+```
+
+执行 `php -f a.php`， 可在当前目录生成 `a.out` 文件， 里边是序列化内容。
+
+
+### 创建反序列化文件
+```php
+<?php
+
+// file: b.php
+
+$content = file_get_contents("a.out");
+
+$obj = unserialize($content);
+
+var_dump($obj);
+
+echo $obj->count;
+
+```
+
+执行 `php -f b.php`, 可得到如下错误信息:
+
+```
+object(__PHP_Incomplete_Class)#1 (2) {
+  ["__PHP_Incomplete_Class_Name"]=>
+  string(1) "A"
+  ["count"]=>
+  int(-1)
+}
+PHP Notice:  main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "A" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /tmp/b.php on line 9
+
+Notice: main(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "A" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /tmp/b.php on line 9
+
+```
+
+
+## 结语
+
+- PS：才发现 php还有一个这么神奇的类 `__PHP_Incomplete_Class`，用于反序列化使用使用，可以实例化，但是不可以调用任何属性和方法。
+- PPS: 没有在lumen框架中重现这个问题，可能是某个版本的bug？
