@@ -5,3 +5,4 @@
 - git submodule init themes/even
 - git submodule init public
 - git submodule update
+- https://hub.docker.com/r/klakegg/hugo
