@@ -2,11 +2,11 @@
 title: "前缀表达式+中缀表达式+后缀表达式"
 date: 2019-07-23T08:11:00Z
 lastmod: 2019-07-23T08:11:00Z
-draft: true
+draft: false
 keywords: [前缀 中缀 后缀 表达式 逆波兰 前缀中缀 后缀转中缀]
-description: ""
+description: "前缀表达式+中缀表达式+后缀表达式"
 tags: [算法, php]
-categories: []
+categories: [算法, php]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
