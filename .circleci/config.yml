@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       # specify the version
-      - image: cibuilds/hugo:latest
+      - image: cibuilds/hugo:0.53
 
     working_directory: ~/hugo
     environment:

@@ -5,12 +5,12 @@ services:
     command: -D -F
     volumes:
       - .:/src
-      - ./output:/target
+      - ./output:/src/target
   run-web:
     image: klakegg/hugo:0.53
     command: server -D -w -F
     volumes:
       - .:/src
-      - ./output:/target
+      - ./output:/src/target
     ports:
       - 1313:1313
