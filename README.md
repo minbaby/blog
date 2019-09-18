@@ -6,3 +6,6 @@
 - git submodule init public
 - git submodule update
 - https://hub.docker.com/r/klakegg/hugo
+- dc up -d run-web
+- dc restart run-web
+
