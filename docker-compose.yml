@@ -1,16 +1,13 @@
 version: '3'
 services: 
-  hugo:
-    image: klakegg/hugo:0.53
+  hugo: &base
+    image: klakegg/hugo:0.58.2-busybox
     command: -D -F
     volumes:
       - .:/src
       - ./output:/src/target
   run-web:
-    image: klakegg/hugo:0.53
-    command: server -D -w -F
-    volumes:
-      - .:/src
-      - ./output:/src/target
+    <<:  *base
+    command: server -D -F
     ports:
       - 1313:1313
