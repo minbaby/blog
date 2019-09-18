@@ -2,7 +2,7 @@
 title: "WSL 设置字体"
 date: 2019-09-18T14:20:27Z
 lastmod: 2019-09-18T14:20:27Z
-draft: true
+draft: false
 keywords: [font setting, tmux, vim, wsl, docker]
 description: ""
 tags: [wsl, docker]
