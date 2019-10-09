@@ -7,7 +7,7 @@ services:
       - .:/src
       - ./output:/src/target
   run-web:
-    <<:  *base
+    <<: *base
     command: server -D -F
     ports:
       - 1313:1313
