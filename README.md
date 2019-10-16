@@ -4,8 +4,9 @@
 - 中文名文件名 github.io 会出问题
 - git submodule init themes/even
 - git submodule init public
-- git submodule update
+- git submodule update --remote
 - https://hub.docker.com/r/klakegg/hugo
 - dc up -d run-web
 - dc restart run-web
+- dc run --rm hugo new post/yyyy-mm/blog.md
 

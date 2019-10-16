@@ -37,7 +37,7 @@ flowchartDiagrams:
 sequenceDiagrams: 
   enable: false
   options: ""
-
+typora-root-url: ../../../static/
 ---
 
 ## 为什么
@@ -58,7 +58,7 @@ But, 这真的简单吗？？？
 
 ## 怎么办
 
-
+对的
 
 ## Install a new Linux server with Docker
 

@@ -37,6 +37,7 @@ flowchartDiagrams:
 sequenceDiagrams: 
   enable: false
   options: ""
+typora-root-url: ../../../static/
 
 ---
 
@@ -115,7 +116,7 @@ sequenceDiagrams:
 >本文链接： 2017/09/13/用到的calibre/
 >版权： 本站文章均采用 CC BY-NC-SA 3.0 CN 许可协议，请勿用于商业，转载注明出处！
 
----- 
+----
 
 ## PS
 
