@@ -1,6 +1,7 @@
 [submodule "themes/even"]
 	path = themes/even
-	url = https://github.com/olOwOlo/hugo-theme-even
+	url = https://github.com/minbaby/hugo-theme-even.git
+	branch = 'hotfix-2019-12-02 '
 [submodule "public"]
 	path = public
 	url = git@github.com:minbaby/minbaby.github.io.git
