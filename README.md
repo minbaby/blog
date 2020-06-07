@@ -8,5 +8,5 @@
 - https://hub.docker.com/r/klakegg/hugo
 - dc up -d run-web
 - dc restart run-web
-- dc run --rm hugo new post/yyyy-mm/blog.md
+- dc run --rm hugo new post/2020/06/blog.md
 
