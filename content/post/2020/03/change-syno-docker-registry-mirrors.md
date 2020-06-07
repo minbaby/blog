@@ -62,7 +62,7 @@ vi /var/packages/Docker/etc/dockerd.json
 {
    "data-root" : "/var/packages/Docker/target/docker",
    "log-driver" : "json-file",
-   "registry-mirrors" : []
+   "registry-mirrors" : ["https://docker.mirrors.ustc.edu.cn/"]
 }
 ```
 
