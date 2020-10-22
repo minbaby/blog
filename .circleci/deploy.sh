@@ -16,7 +16,7 @@ rm -rf public/
 
 hugo -v
 
-rsync -arv --delete public/* $DEPLOY_DIR
+cp -r public/* $DEPLOY_DIR
 
 cd $DEPLOY_DIR
 git add -f .
