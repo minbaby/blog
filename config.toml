@@ -153,9 +153,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/images/payment/alipay.jpeg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:minbaby.zhang#gmail.com"
+    a-email = "mailto:zhangshaomin.1990#gmail.com"
     # b-stack-overflow = "http://localhost:1313"
-    # c-twitter = "http://localhost:1313"
+    c-twitter = "https://twitter.com/zhangshaomin"
     # d-facebook = "http://localhost:1313"
     # e-linkedin = "http://localhost:1313"
     # f-google = "http://localhost:1313"
