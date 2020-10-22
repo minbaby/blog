@@ -10,17 +10,13 @@ draft: false
 
 ## 霸气千秋
 
-Email: minbaby.zhang(^ ^)gmail.com (你懂的)
-
-Phone: 保密
-
 Github: https://github.com/minbaby
 
 ![Think Different](/images/think-different.jpg)
 
-{{% admonition abstract "友情链接" false %}}
+{{% admonition example "友情链接" false %}}
 
 - [摩西崖刻](https://vimnote.com/)
-- [洛客技术博客](https://lkker.github.io)
+- [霸气千秋 @Notion](https://www.notion.so/minbaby/s-838630e7a58841e5989264c4a7a4b0da)
 
 {{% /admonition %}}
