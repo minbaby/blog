@@ -54,7 +54,7 @@ typora-root-url: ../../../static/
 
 方法一(推荐)：
 
-```jsx
+```bash
 echo options hid_apple fnmode=2 | sudo tee -a /etc/modprobe.d/hid_apple.conf
 sudo update-initramfs -u -k all
 sudo reboot
@@ -63,7 +63,6 @@ sudo reboot
 方法二：
 
 ```bash
-
 echo "module/hid_apple/parameters/fnmode = 2" | sudo tee -a /etc/sysfs.conf
 sudo reboot
 ```

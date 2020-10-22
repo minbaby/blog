@@ -184,3 +184,13 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 #  section = ["HTML", "RSS"]
 #  taxonomy = ["HTML", "RSS"]
 #  taxonomyTerm = ["HTML"]
+
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true             # New since 0.60, optional, allows HTML inside CommonMark content
