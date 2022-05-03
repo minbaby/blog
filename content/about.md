@@ -17,6 +17,5 @@ Github: https://github.com/minbaby
 {{% admonition example "友情链接" false %}}
 
 - [摩西崖刻](https://vimnote.com/)
-- [霸气千秋 @Notion](https://www.notion.so/minbaby/s-838630e7a58841e5989264c4a7a4b0da)
 
 {{% /admonition %}}
