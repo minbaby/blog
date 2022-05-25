@@ -8,6 +8,5 @@
 - https://hub.docker.com/r/klakegg/hugo
 - dc up -d run-web
 - dc restart run-web
-- dc run --rm hugo new post/2021/05/
-- sudo chown -R $UID:$UID content/post/2022
+- dc run --rm hugo new post/`date +%Y/%m`/blog.md && sudo chown -R $UID:$UID content/post/
 

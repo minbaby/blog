@@ -38,7 +38,6 @@ sequenceDiagrams:
   enable: false
   options: ""
 
-typora-root-url: ../../../static/
 ---
 
 <!--more-->
