@@ -2,7 +2,7 @@
 title: "vscode 快捷键 ctrl+e 在终端里无法使用的问题"
 date: 2022-05-25T09:41:15Z
 lastmod: 2022-05-25T09:41:15Z
-draft: true
+draft: false
 keywords: [vscode keybindings]
 description: ""
 tags: [vscode keybindings]
