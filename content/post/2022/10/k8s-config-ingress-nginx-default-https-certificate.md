@@ -2,7 +2,7 @@
 title: "k8s 配置 ingress-nginx 默认 https 证书"
 date: 2022-10-11T08:45:33Z
 lastmod: 2022-10-11T08:45:33Z
-draft: true
+draft: false
 keywords: [k8s ingress-nginx https]
 description: ""
 tags: [k8s ingress-nginx https]
