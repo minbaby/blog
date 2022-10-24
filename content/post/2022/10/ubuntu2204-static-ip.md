@@ -2,7 +2,7 @@
 title: "Ubuntu 2204 配置固定 IP"
 date: 2022-10-24T09:12:54Z
 lastmod: 2022-10-24T09:12:54Z
-draft: true
+draft: false
 keywords: [linux, netplan, ubuntu, ubuntu2204]
 description: ""
 tags: [linux, netplan, ubuntu, ubuntu2204]
