@@ -3,6 +3,7 @@ services:
   hugo: &base
     image: klakegg/hugo:0.60.0-busybox
     command: -D -F
+    user: "1000:1000"
     volumes:
       - .:/src
       - ./output:/src/target

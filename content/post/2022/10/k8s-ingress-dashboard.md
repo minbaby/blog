@@ -3,9 +3,9 @@ title: "k8s 使用 ingress 转发 dashboard"
 date: 2022-10-11T08:40:58Z
 lastmod: 2022-10-11T08:40:58Z
 draft: false
-keywords: [k8s ingress dashboard microk8s]
+keywords: [k8s, ingress, dashboard, microk8s]
 description: ""
-tags: [k8s ingress dashboard microk8s]
+tags: [k8s, ingress, dashboard, microk8s]
 categories: [k8s]
 author: ""
 
@@ -52,6 +52,8 @@ Example:
 
 `nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"`
 
+<!--more-->
+
 ## yaml example
 
 因为 k8s-dashboard 默认使用 https 协议，所以需要使用
@@ -79,5 +81,3 @@ spec:
             path: /
             pathType: Prefix
 ```
-
-<!--more-->

@@ -9,5 +9,5 @@
 - http://127.0.0.1:1313
 - dc up -d run-web
 - dc restart run-web
-- dc run --rm hugo new post/`date +%Y/%m`/blog.md && sudo chown -R $UID:$UID content/post/
+- dc run --rm hugo new post/`date +%Y/%m`/blog.md
 
