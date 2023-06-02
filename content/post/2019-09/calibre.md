@@ -1,12 +1,12 @@
 ---
-title: "[转]用到的calibre "
+title: "用到的calibre"
 date: 2019-09-14T15:56:16Z
 lastmod: 2019-09-14T15:56:16Z
 draft: false
 keywords: [calibre, tools, 自定义栏目, 自定义分类 , 自定义阅读状态]
 description: ""
 tags: [calibre, tools]
-categories: [calibre, tools, 转发]
+categories: [calibre, tools, 转载]
 author: "suntus"
 
 # You can also close(false) or open(true) something for this content.
